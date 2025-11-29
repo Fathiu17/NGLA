@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGLA | Empowering Gamers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">NGLA <span class="highlight">GAMES</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#categories">Ranks</a></li>
+            <li><a href="#leaderboard">Leaderboard</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </div>
+            </label>
+        </div>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content 3d-element">
+            <h1 class="glitch" data-text="NGLA">NGLA</h1>
+            <h2>EMPOWERING GAMERS, <span class="highlight">UNITING COMMUNITIES</span></h2>
+            <p>The competitive backbone of Nigeria’s mobile gaming culture.</p>
+            <div class="cta-buttons">
+                <a href="#categories" class="btn primary-btn">Explore Ranks</a>
+                <a href="#tournaments" class="btn secondary-btn">Join Tournament</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://purepng.com/public/uploads/large/purepng.com-pubg-playerpubgplayerplayerunknowns-battlegroundsbattle-royale-game-1251525202353j142d.png" alt="Free Fire Character" class="floating-char"> 
+            </div>
+    </section>
+
+    <section id="about" class="section-pad">
+        <div class="container">
+            <div class="section-title">
+                <h2>Who We Are</h2>
+                <div class="line"></div>
+            </div>
+            <div class="card-grid">
+                <div class="card tilt-card">
+                    <i class="fas fa-crosshairs icon"></i>
+                    <h3>The Mission</h3>
+                    <p>NGLA is a competitive gaming ecosystem designed to standardize, motivate, and empower the Nigerian gaming scene.</p>
+                </div>
+                <div class="card tilt-card">
+                    <i class="fas fa-trophy icon"></i>
+                    <h3>What We Do</h3>
+                    <p>Dual Leaderboards, Season-based Competitions (BR & CS), and Talent exposure opportunities.</p>
+                </div>
+                <div class="card tilt-card">
+                    <i class="fas fa-chart-line icon"></i>
+                    <h3>Why It Matters</h3>
+                    <p>We provide a framework that rewards skill, showcases talent, and connects teams to real opportunities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="categories" class="section-pad bg-pattern">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Categories</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="category-wrapper">
+                <div class="category-block">
+                    <h3><i class="fas fa-shield-alt"></i> Guild System (4-Tier)</h3>
+                    <div class="tier-grid">
+                        <div class="tier s-tier tilt-card">
+                            <h4>S-Tier</h4>
+                            <span class="badge gold">Gold Label</span>
+                            <p>Legacy guilds known for performance and dominance in CS Guild Wars.</p>
+                        </div>
+                        <div class="tier pro-tier tilt-card">
+                            <h4>Pro-Guilds</h4>
+                            <span class="badge silver">Silver Label</span>
+                            <p>Promoted from Mid-League. Active in CS Guild Wars with BR involvement.</p>
+                        </div>
+                        <div class="tier mid-tier tilt-card">
+                            <h4>Mid-League</h4>
+                            <span class="badge bronze">Bronze Label</span>
+                            <p>Where new and rising guilds start their journey.</p>
+                        </div>
+                        <div class="tier creator-tier tilt-card">
+                            <h4>Creators</h4>
+                            <span class="badge red">Red Label</span>
+                            <p>Exclusively for content creators and influencers who run guilds.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-block mt-5">
+                    <h3><i class="fas fa-gamepad"></i> eSports Category</h3>
+                    <div class="esports-card tilt-card">
+                        <span class="badge blue">Blue Label</span>
+                        <p>For registered competitive teams. Matches include both tournaments and ranked seasonal play.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="leaderboard" class="section-pad">
+        <div class="container">
+            <div class="section-title">
+                <h2>Live Leaderboards</h2>
+            </div>
+            <div class="leaderboard-preview">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Guild / Team</th>
+                            <th>Category</th>
+                            <th>Points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Example Guild A</td>
+                            <td class="gold-text">S-Tier</td>
+                            <td>2400</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Example Team B</td>
+                            <td class="blue-text">eSports</td>
+                            <td>2350</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Example Creator C</td>
+                            <td class="red-text">Creator</td>
+                            <td>2100</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="center-btn">
+                    <button class="btn primary-btn">View Full Rankings</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h3>NGLA</h3>
+                <p>NGLA is where guilds evolve into brands, and players evolve into pros.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Administration</h3>
+                <ul>
+                    <li>Inspider – Community Manager</li>
+                    <li>Knoseek – eSports Manager</li>
+                    <li>Thad – Outreach Coordinator</li>
+                    <li>Zach – Dev Partnership</li>
+                    <li>Mightyleo – Media Manager</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p><i class="fas fa-envelope"></i> naijaguildleadersassembly@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +234 703 601 9526</p>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+                <p>Social Handle: @ngla001ff</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 NGLA. All Rights Reserved.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+  </html>
+          
